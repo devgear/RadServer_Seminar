@@ -1,0 +1,91 @@
+object CForm: TCForm
+  Left = 0
+  Top = 0
+  Caption = 'Post Send'
+  ClientHeight = 536
+  ClientWidth = 450
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    TextSettings.WordWrap = True
+    Align = Top
+    Position.Y = 94.000000000000000000
+    Size.Width = 450.000000000000000000
+    Size.Height = 215.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Viewport.Width = 446.000000000000000000
+    Viewport.Height = 211.000000000000000000
+  end
+  object Layout1: TLayout
+    Align = Top
+    Size.Width = 450.000000000000000000
+    Size.Height = 94.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    object Button1: TButton
+      Position.X = 21.000000000000000000
+      Position.Y = 48.000000000000000000
+      Size.Width = 100.000000000000000000
+      Size.Height = 38.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'Button1'
+      OnClick = Button1Click
+    end
+    object Edit2: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 4
+      Text = #52649#52397#45224#46020
+      Position.X = 176.000000000000000000
+      Position.Y = 8.000000000000000000
+      OnChange = Edit2Change
+    end
+    object NumberBox1: TNumberBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 5
+      Cursor = crIBeam
+      Max = 1000.000000000000000000
+      Position.X = 21.000000000000000000
+      Position.Y = 8.000000000000000000
+    end
+  end
+  object FListBox: TListBox
+    Align = Client
+    Margins.Top = 10.000000000000000000
+    Size.Width = 450.000000000000000000
+    Size.Height = 217.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 446.000000000000000000
+    Viewport.Height = 213.000000000000000000
+    object ListBoxItem2: TListBoxItem
+      ItemData.Detail = 'dddd'
+      Size.Width = 446.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listboxitemrightdetail'
+      TabOrder = 0
+      Text = 'ItemData'
+    end
+  end
+  object NetHTTPClient1: TNetHTTPClient
+    UserAgent = 'Embarcadero URI Client/1.0'
+    OnRequestCompleted = NetHTTPClient1RequestCompleted
+    Left = 384
+    Top = 128
+  end
+  object NetHTTPRequest1: TNetHTTPRequest
+    Client = NetHTTPClient1
+    Left = 264
+    Top = 128
+  end
+end

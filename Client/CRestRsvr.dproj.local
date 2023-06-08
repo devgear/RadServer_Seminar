@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.848,=D:\temp\DX11\Unit5.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.537,D:\5sh_Delphi\Seminar2023\3.RadServer\Client\CRestRsvr.dproj=D:\temp\DX11\Project5.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.535,D:\5sh_Delphi\Seminar2023\3.RadServer\Client\CMUnit.pas=D:\temp\DX11\Unit5.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.535,D:\5sh_Delphi\Seminar2023\3.RadServer\Client\CMUnit.fmx=D:\temp\DX11\Unit5.fmx</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android64="" Android=""/>
+	</ActiveMobileDevice>
+</BorlandProject>

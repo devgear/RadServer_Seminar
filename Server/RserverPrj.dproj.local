@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.660,=emsserverresource.dcp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.863,=vcl.dcp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.543,=FireDACCommonDriver.dcp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.529,=dbrtl.dcp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.870,=vclFireDAC.dcp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.504,D:\5sh_Delphi\Seminar2023\3.RadServer\RUnit.pas=D:\temp\DX11\Unit5.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.554,=FireDACSqliteDriver.dcp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.202,D:\5sh_Delphi\Seminar2023\3.RadServer\DRModule.dfm=D:\5sh_Delphi\Seminar2023\3.RadServer\Unit1.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.202,D:\5sh_Delphi\Seminar2023\3.RadServer\DRModule.pas=D:\5sh_Delphi\Seminar2023\3.RadServer\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.217,D:\5sh_Delphi\Seminar2023\3.RadServer\RserverPrj.dproj=D:\temp\DX11\Project5.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.003,=D:\5sh_Delphi\Seminar2023\3.RadServer\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.504,D:\5sh_Delphi\Seminar2023\3.RadServer\RUnit.dfm=D:\temp\DX11\Unit5.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.536,=FireDAC.dcp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.194,D:\5sh_Delphi\Seminar2023\3.RadServer\DRModule.pas=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.549,=FireDACCommon.dcp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.693,=emsserverapi.dcp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.937,=D:\temp\DX11\Unit5.pas</Transaction>
+  </Transactions>
+</BorlandProject>
